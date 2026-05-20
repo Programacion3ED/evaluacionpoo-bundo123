@@ -8,42 +8,41 @@ public class ActivoDigital {
     private boolean parcheAplicado;
 
     public ActivoDigital(String codigo, String nombre, int nivelRiesgo, boolean parcheAplicado) {
-        // TODO: completar constructor
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.nivelRiesgo = nivelRiesgo;
+        this.parcheAplicado = parcheAplicado;
     }
 
     public String getCodigo() {
-        // TODO: completar
-        return null;
+        return codigo;
     }
 
     public void setCodigo(String codigo) {
-        // TODO: completar
+        this.codigo = codigo;
     }
 
     public String getNombre() {
-        // TODO: completar
-        return null;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        // TODO: completar
+        this.nombre = nombre;
     }
 
     public int getNivelRiesgo() {
-        // TODO: completar
-        return 0;
+        return nivelRiesgo;
     }
 
     public void setNivelRiesgo(int nivelRiesgo) {
-        // TODO: completar
+        this.nivelRiesgo = nivelRiesgo;
     }
 
     public boolean isParcheAplicado() {
-        // TODO: completar
-        return false;
+        return parcheAplicado;
     }
 
     public void setParcheAplicado(boolean parcheAplicado) {
-        // TODO: completar
+        this.parcheAplicado = parcheAplicado;
     }
 }
